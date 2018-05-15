@@ -11,6 +11,16 @@
 
 # Setup
 
+## Install kubectl for macOS
+
+```
+curl -LO https://storage.googleapis.com/kubernetes-release/release/v1.10.2/bin/darwin/amd64/kubectl
+chmod 755 ./kubectl
+mv ./kubectl /usr/loca/bin/
+```
+
+## Vagrant up
+
 ```
 cd kubespray
 vagrant up
