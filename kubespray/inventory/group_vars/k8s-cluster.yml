@@ -163,9 +163,9 @@ local_volumes_enabled: false
 persistent_volumes_enabled: false
 
 # Make a copy of kubeconfig on the host that runs Ansible in GITDIR/artifacts
-# kubeconfig_localhost: false
+kubeconfig_localhost: true
 # Download kubectl onto the host that runs Ansible in GITDIR/artifacts
-kubectl_localhost: true
+# kubectl_localhost: false
 
 # dnsmasq
 # dnsmasq_upstream_dns_servers:
